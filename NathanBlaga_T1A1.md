@@ -38,6 +38,7 @@ When small amounts of data are sent over networks such as the internet or a LAN,
 
 Routers are a hardware device that routes data form a local area network (LAN) or the internet to another network connection. While routing is the process of selecting a path across one or more networks to route packets of data back and forth along said pathway (Christensson 2006). Walton quotes “The router is a fundamental building block of modern business networks.” This encapsulates routers and how effective and efficient their impact has been on the development of the internet.  In addition to working as a gateway of networks, they can also perform secondary functions that are very beneficial to the network itself. These roles include checking traffic coming in and out of the network, firewall functions and can work as a network switch if needed (Walton).
 
+<br></br>
 ### **Domains / DNS**
 
 “A domain contains a group of computers that can be accessed and administered with a common set of rules” (Christensson 2006).  As mentioned in the previous question; DNS acts as a translator, translating a domain name or URL to the corresponding numerical IP address needed for locating and identifying the users’ intended path (Christensson 2006). Domains help the development of the internet by cementing its place in the corporate world. This allowed companies to network all local computers together so that they could better oversee how effective and efficiently all their employees operate. In addition by setting a domain within the company’s network, this would in turn block outside traffic from accessing the company’s network, adding an extra level of security and privacy to high level information and data.
@@ -81,6 +82,8 @@ Rendering is the process in which a browser rendering engine turns code such as 
 
 Web development tools are not the same as website builders or IDEs. Instead they provide web developers and users alike a tool for testing websites or web applications UI. DevTools allow web developers through a live feed to debug their code and alter inadequate concepts within their websites source code. More importantly developers can adapt their code to various platforms such as desktop, tablet and mobile and ensure their website can run efficiently and effectively on the various web browsers (Hill 2009). Web browsers have not only aided in the development of the internet but acted as a core platform in which the World Wide Web could flourish and expand to the technological giant it is today.
 
+<br></br>
+<br></br>
 ## **Question 4:**
 
 Ruby was created by the Japanese programmer Yukihiro “Matz” Matsumoto and released in the 1990s. Ruby is an open-sourced scripting language built for both front and back end development (Fowler 2020).  Ruby is comprised of various data structures including; Arrays, Hash tables and Stacks. These data structures are used to access, organise and interact with data in specific ways depending on the needs of the user and situation at hand (Shapir 2020).
@@ -117,7 +120,6 @@ A hash table is a dictionary-like collection of unique keys and paired values (S
 - Strings.
 - Integers.
 - Symbols.
-- Etc.
 
 Very similar to arrays, hashes are very effective in storing values and items in a collection. However Hash tables bring other benefits to coding in ruby as well. Hashes are very useful when naming parameters in functions. Another useful feature of hashes is the ability to map words to definitions or keys to items. For example if a user wanted to set a hash table to a phone book, they could map the names of their contacts to the corresponding phone numbers. In turn when the user accesses the hash table for a particular name, the matching phone number will be displayed. In addition to these features hash tables are very efficient in finding duplicates inside arrays, counting characters in strings and creating datasets with more complex components compared to that of array tables (Shapir 2020).
 
@@ -243,6 +245,8 @@ Control flow is an important part of programing and web development. It is the o
 
 An example of an IF statement below illustrates how the flow is controlled depending on various conditions being met. The user is asked how old they are, if the return is 18 or higher then program will display “Congratulation, you can drink!” However if the return is lower than 18, the program displays; “Sorry! You are not old enough to drink yet!”
 
+<br></br>
+
 ```ruby
 puts “How old are you?”
 age = gets.chomp.to_i
@@ -270,7 +274,7 @@ Ruby also offers implicit coercion methods which only return a value when object
 Using our example from question 8 we can have a look how explicit casting method is used. We can see the program is asking the user the question: “How old are you?” The program then gets the return with the line (age = gets.chomp.to_i). When a program receives input from the user, its default state is that of a string.  However the issue is that in the ‘if statement’, it is asking to compare the users input (a string) to that of the number 18 (an integer). The program will return with an error message as it cannot compare the two types. The way to resolve this issue is by adding .to_i to the gets line as seen: (age = gets.chomp.to_i). By doing this, the program gets the users input (a string) and transforms it into an integer. Now the program can take the users input now an integer and compare it to the number 18 (also an integer) and complete the actions asked of it.
 
 ```ruby
-uts “How old are you?”
+puts “How old are you?”
 
 age = gets.chomp.to_i
 
@@ -325,7 +329,7 @@ In programming, data types are a form of classification used to sort data. These
   - :last_name
 ```
 
-- **Arrays** are used to contain a list of values called elements. They are useful as they can be iterated through and individual elements can be selected within in array at any given moment. Elements in an array are represented within brackets [ ] and use commas in between the elements to separate themselves. Arrays can be assigned to variables. Once a variable is called the corresponding array will be returned to the user.
+- **Arrays** are used to contain a list of values called elements. They are useful as they can be iterated through and individual elements can be selected within in array at any given moment. Elements in an array are represented within square brackets and use commas in between the elements to separate themselves. Arrays can be assigned to variables. Once a variable is called the corresponding array will be returned to the user.
   
 ```ruby
   - Array_1 = [ 1, 2, 4, 5 ,6, 7]
@@ -334,8 +338,8 @@ In programming, data types are a form of classification used to sort data. These
   
 - **Hashes** work similar to arrays in that they contain lists of data. The key difference is that hashes use a dictionary-like collection of keys and values. A hash will contain a key which is paired with a corresponding value. To access any value within the hash, the key for that value must be called. Like arrays hashes can be assigned to a variable.
 
-```ruby
-  - Phonebook = {Nathan_Blaga => 0436578574, “Tim_Smith” => 045657464}
+```r
+  - Phonebook = {Nathan_Blaga => 0436578574 “Tim_Smith” => 045657464}
 ```
 
 ## **Question 11:**
@@ -349,6 +353,8 @@ The above problem can be addressed in a multitude of ways using different method
 
 These main four classes were selected, because they comprise the main objects that function within the environment of a restaurant. The chef class as depicted below will have several sub classes. All whose main functions relate to the process of converting orders and raw materials into food. The menu class is a connecter class, as it translates information between all other classes. Its main function is to provide information to the customer class, while providing direction for the basket class and a parameter for the chef class. The basket class function is to translate data from the menu and customer class to the chef class. Once the chef class has rendered the data into a finished order, the basket class can return completed orders to the customer class.  The basket class also has a secondary function of repeatability, to ensure customer’s loyalty for the future. Finally the customer class main function is to provide information to the basket and chef classes through the menu class and inputted data. Below is a breakdown of each of the four classes, their attributes, various methods and access protocols.
 
+<br></br>
+<br></br>
 ### **Chef Class:**
 
 The chef class will contain all basic characteristics, attributes, functions and methods for any object that prepares and cooks the food resulting in completed orders for customers.
@@ -356,7 +362,6 @@ The chef class will contain all basic characteristics, attributes, functions and
 #### **Chef  - attr-accessor**
 
 - Though various changes new employees, promotions and even demotions, giving the chef class accessor attributes, allows for constant read and write access.
-- Instances variables outside the class can now be altered if there is a change to the class or object.
 
 #### **Chef - Attributes:**
 
@@ -403,7 +408,6 @@ The menu class will contain all basic characteristics, attributes, functions and
 ### **Menu - attr-accessor**
 
 - Though new weekly specials, the removal of food or the addition of new dishes, giving the menu class accessor attributes, allows for constant read and write access.
-- Instances variables outside the class can now be altered if there is a change to the class or object.
 
 #### **Menu - Attributes:**
 
@@ -450,7 +454,6 @@ The basket class will contain all basic characteristics, attributes, functions a
 ### **Basket - attr-accessor**
 
 - Between low to high traffic, business seasons and various changes, giving the basket class accessor attributes, allows for constant read and write access.
-- Instances variables outside the class can now be altered if there is a change to the class or object.
   
 #### **Basket - Attributes:**
 
@@ -508,7 +511,6 @@ The customer class will contain all basic characteristics, attributes, functions
 ### **Customer - attr-accessor**
 
 - Though different customers continuously coming through the restaurant, giving the customer class accessor attributes, allows for constant read and write access.
-- Instances variables outside the class can now be altered if there is a change to the class or object.
 
 #### **Customer - Attributes:**
 
@@ -552,7 +554,7 @@ The customer class will contain all basic characteristics, attributes, functions
 
 ### **Q12 - Broken Code:**
 
-```ruby
+```ru
 celsius = gets
 fahrenheit = (celsius * 9 / 5) + 32
 print "The result is: "
@@ -566,7 +568,7 @@ In the above code, the first line states; celsius = gets. Now this is correct in
 
 ### **Q12 -Fixed Code:**
 
-```ruby
+```ru
 puts "What is the current temperature in celsius please?"
 celsius = gets.chomp.to_i
 fahrenheit = (celsius * 9 / 5) + 32
@@ -601,12 +603,18 @@ The code begins with a while loop which iterates through the array, starts with 
 
 Now the loop will move along the array and compare the items 39 and 19. Because 39 is greater than 19, the if statement will swap the two items positions around. This is where a temporary variable can be utilised. The way in which this is done, the code stores the item 39 in a temporary variable. This acts like a storage space as the item 39 is removed from the array and placed within the temporary variable. Now this allows item 19 to be pushed into the space once occupied by item 39. The space in which item 19 once occupied is now free, and item 39 is now pushed out of the storage space or temporary variable and placed within the array where item 19 used to be. The resulting array will then contain the items in the following order: arr = [5, 22, 29, 19, 39. 51, 78, 96, 84]. This has resulted in the above code completing its primary function of taking the first two elements that are out of order and swapping their positions in the array.
 
+<br></br>
+<br></br>
+<br></br>
 ## **Question 14:**
 
 ### **Flowchart:**
 
 ![Flowchart](./Images/Prime_number_flowchart.jpg)
 
+<br></br>
+<br></br>
+<br></br>
 ### **Pseudocode:**
 
 Start with an input.
@@ -643,6 +651,14 @@ If there is a remainder and the count is <= 100, we go back to i = 2 and add 1 (
 
 If count > 100, end the program.
 
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 ## **Question 15:**
 
 ### **Q15 - Code:**
@@ -697,7 +713,16 @@ The last statement states if the users has specified that raining is true and th
 
 ## **Question 16:**
 
-### **Q16 - Code:**
+### **Q16 - Explanation:**
+
+The code below begins with a hash table containing the list of items and their paired values. Immediately after a variable called Selected_score is created, which converts the hash table values into an array. This is followed by a welcome message and a set of instructions which are printed to the user every time the program is run. The array created from the hash table is also printed to the user to aid in selecting and entering a maximum score for their test.
+
+Next a method named test_result is created. Within the method test_result, a variable is created and assigned to an empty array. The array will be used to store the items that the user is allergic to. This is followed by a gets method prompting the user to enter their maximum score for the test. The method test_result then includes a while loop. If the score provided by the user exceeds 0, the code will iterate through the Allergy-items array. If the value of each key in the array is below or equal to the score provided, then that particular item will be pushed to the items array. The way in which the code calculates which combinations of values from the array are used to produce the user’s maximum score is calculated through: score -= value.  This line of code defines that score is now equal to score minus value.
+
+An example representing the process above is as follows; the user’s maximum score was 15, the loop iterates through the array, and checks each item to see which values in combination with each other or individually sum to 15. In this case, it would be a combination of the following; (‘Eggs’ + ‘Peanuts’ + ‘Shellfish’ + Strawberries’) (1+2+4+8) = 15. The code takes the number 15 and subtracts 1, 2, 4 and 8, which results in 0. This confirms that the right combination of values from the array produce the inputted score. 
+
+This is followed by an if statement that states when the allergies  contained in the items array is above or equal to 1, the code will display the user a message followed by all items they are allergic to. While if the allergies contained in the items array are classified as else, a message will be declare to the user they are not allergic to anything tested in that session. 
+<br></br>
 
 ```ruby
 Allergy_items = {
@@ -710,8 +735,6 @@ Allergy_items = {
   'Pollen'       => 64,
   'Cats'         => 128,
 }
-# 255 is max
-
 selected_score = Allergy_items.values.to_a
 
 puts "Welcome to Nathan's allergy test!"
@@ -735,7 +758,6 @@ while score > 0 do
       end
       end
       end
-
 if items.length >= 1
 puts "Based on the score you have provided, you are allergic to the following items:"
 return items
@@ -743,7 +765,6 @@ else
   puts "Based on the score you have provided, you are not allergic to anything tested today!"
 end
 end
-
 puts test_result()
 puts "Below you will find a full list of all allergies tested agianst your score:"
 puts Allergy_items.keys
@@ -751,15 +772,6 @@ puts "Thank you for your participation!"
 puts "Have a great day!"
 ```
 
-### **Q16 - Explanation:**
-
-The above code begins with a hash table containing the list of items and their paired values. Immediately after a variable called Selected_score is created, which converts the hash table values into an array. This is followed by a welcome message and a set of instructions which are printed to the user every time the program is run. The array created from the hash table is also printed to the user to aid in selecting and entering a maximum score for their test.
-
-Next a method named test_result is created. Within the method test_result, a variable is created and assigned to an empty array. The array will be used to store the items that the user is allergic to. This is followed by a gets method prompting the user to enter their maximum score for the test. The method test_result then includes a while loop. If the score provided by the user exceeds 0, the code will iterate through the Allergy-items array. If the value of each key in the array is below or equal to the score provided, then that particular item will be pushed to the items array. The way in which the code calculates which combinations of values from the array are used to produce the user’s maximum score is calculated through: score -= value.  This line of code defines that score is now equal to score minus value.
-
-An example representing the process above is as follows; the user’s maximum score was 15, the loop iterates through the array, and checks each item to see which values in combination with each other or individually sum to 15. In this case, it would be a combination of the following; (‘Eggs’ + ‘Peanuts’ + ‘Shellfish’ + Strawberries’) (1+2+4+8) = 15. The code takes the number 15 and subtracts 1, 2, 4 and 8, which results in 0. This confirms that the right combination of values from the array produce the inputted score.
-
-This is followed by an if statement that states when the allergies  contained in the items array is above or equal to 1, the code will display the user a message followed by all items they are allergic to. While if the allergies contained in the items array are classified as else, a message will be displayed to the user declaring they are not allergic to anything tested in that session. The user is than acknowledged for their participation and the program is terminated.
 
 ## **Reference List:**
 
