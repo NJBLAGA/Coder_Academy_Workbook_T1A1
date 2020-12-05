@@ -87,6 +87,8 @@ Ruby was created by the Japanese programmer Yukihiro “Matz” Matsumoto and re
 
 ### **Arrays:**
 
+Ruby was created by the Japanese programmer Yukihiro “Matz” Matsumoto and released in the 1990s. Ruby is an open-sourced scripting language built for both front and back end development (Fowler 2020).  Ruby is comprised of various data structures including; Arrays, Hash tables and Stacks. These data structures are used to access, organise and interact with data in specific ways depending on the needs of the user and situation at hand (Shapir 2020).
+
 Arrays are ordered collections of any object. The list of items are stored in square brackets and separated from each other by commas (Shapir 2020). Objects can be anything from:
 
 - Strings.
@@ -286,7 +288,6 @@ In programming, data types are a form of classification used to sort data. These
 ```ruby
   - 14
   - 25
-  - 67
   - -5
 ```
 
